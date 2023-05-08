@@ -13,28 +13,28 @@
 <body class="flex justify-center">
     <div class=" bg-blue-100  bg-gradient-to-r from-blue-200 to-fuchsia-300 rounded-lg px-15 py-10 ring-1 ring-slate-200/5 shadow-xl ">
         <div class="flex justify-center mb-7">
-            <input disabled type="text" id="display" class="w-80 h-20 text-right align-baseline border-2 border-black text-5xl bg-white text-black" >
+            <input disabled type="text" id="input" class="w-80 h-20 text-right align-baseline border-2 border-black text-5xl bg-white text-black" >
         </div>
         <div class="grid grid-cols-4 gap-3 border box-border-4 h-100 w-100 p-12">
             <span class="font-comic-sans text-xl ml-3 h-12 text-black">🐼<br>Panda</span>
             <button onclick="Percentage()" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">%</button>
-            <button onclick="display.value = ''" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">C</button>
-            <button onclick="display.value = display.value.toString().slice(0, -1)" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">X</button>
-            <button onclick="display.value += 7" class="bg-indigo-500 text-xl hover:bg-indigo-400 px-5 py-3 rounded-lg">7</button>
-            <button onclick="display.value += 8" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">8</button>
-            <button onclick="display.value += 9" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">9</button>
-            <button onclick="display.value += '*'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">*</button>
-            <button onclick="display.value += 4" class="bg-indigo-500 text-xl  hover:bg-indigo-400 px-5 py-3 rounded-lg">4</button>
-            <button onclick="display.value += 5" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">5</button>
-            <button onclick="display.value += 6" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">6</button>
-            <button onclick="display.value += '/'"class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">÷</button>
-            <button onclick="display.value += 1" class="bg-indigo-500 text-xl  hover:bg-indigo-400 px-5 py-3 rounded-lg">1</button>
-            <button onclick="display.value += 2" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">2</button>
-            <button onclick="display.value += 3" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">3</button>
-            <button onclick="display.value += '-'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">-</button>
-            <button onclick="display.value += '.'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 px-5 py-3 rounded-lg">.</button>
-            <button onclick="display.value += 0" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">0</button>
-            <button onclick="display.value += '+'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">+</button>
+            <button onclick="input.value = ''" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">C</button>
+            <button onclick="input.value = input.value.toString().slice(0, -1)" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">X</button>
+            <button onclick="input.value += 7" class="bg-indigo-500 text-xl hover:bg-indigo-400 px-5 py-3 rounded-lg">7</button>
+            <button onclick="input.value += 8" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">8</button>
+            <button onclick="input.value += 9" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">9</button>
+            <button onclick="input.value += '*'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">*</button>
+            <button onclick="input.value += 4" class="bg-indigo-500 text-xl  hover:bg-indigo-400 px-5 py-3 rounded-lg">4</button>
+            <button onclick="input.value += 5" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">5</button>
+            <button onclick="input.value += 6" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">6</button>
+            <button onclick="input.value += '/'"class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">÷</button>
+            <button onclick="input.value += 1" class="bg-indigo-500 text-xl  hover:bg-indigo-400 px-5 py-3 rounded-lg">1</button>
+            <button onclick="input.value += 2" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">2</button>
+            <button onclick="input.value += 3" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">3</button>
+            <button onclick="input.value += '-'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">-</button>
+            <button onclick="input.value += '.'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 px-5 py-3 rounded-lg">.</button>
+            <button onclick="input.value += 0" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">0</button>
+            <button onclick="input.value += '+'" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">+</button>
             <button onclick="calculate()" class="bg-indigo-500 text-xl  hover:bg-indigo-400 rounded-lg">=</button>
         </div>
     </div>

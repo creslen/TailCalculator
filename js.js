@@ -1,9 +1,12 @@
 function calculate(){
-    display.value = eval(display.value);
+    input.value = eval(input.value);
 }
         
 function Percentage() {
-    var value = parseFloat(document.getElementById("display").value);
+    var value = parseFloat(document.getElementById("input").value);
     var percentage = value / 100;
-    document.getElementById("display").value = percentage;
+    document.getElementById("input").value = percentage;
+}
+function clear() {
+  document.getElementById("input").value = "";
 }
