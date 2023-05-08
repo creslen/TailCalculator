@@ -1,0 +1,8 @@
+@font-face {
+    font-family: DarumadropOne-Regular;
+    src: url('DarumadropOne-Regular.ttf');
+    font-weight: bold;
+}
+body{
+    font-family: DarumadropOne-Regular;
+}
